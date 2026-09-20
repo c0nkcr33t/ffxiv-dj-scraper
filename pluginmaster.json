@@ -1,0 +1,20 @@
+[
+  {
+    "Author": "c0nkcr33t",
+    "Name": "DJ Scraper",
+    "InternalName": "DjScraperPlugin",
+    "AssemblyVersion": "0.1.0.0",
+    "Description": "An experimental companion for creating Thunderdome playlist tracks.",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 15,
+    "RepoUrl": "https://github.com/c0nkcr33t/ffxiv-dj-scraper",
+    "IconUrl": "https://raw.githubusercontent.com/c0nkcr33t/ffxiv-dj-scraper/main/assets/icon.png",
+    "Punchline": "Download and prepare playlist tracks from an in-game window.",
+    "Tags": ["audio", "playlist", "thunderdome"],
+    "DownloadLinkInstall": "https://github.com/c0nkcr33t/ffxiv-dj-scraper/releases/latest/download/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/c0nkcr33t/ffxiv-dj-scraper/releases/latest/download/latest.zip",
+    "LastUpdate": "1789928653",
+    "IsHide": false,
+    "IsTestingExclusive": false
+  }
+]

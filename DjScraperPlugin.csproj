@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Dalamud.NET.Sdk/15.0.0">
+  <PropertyGroup>
+    <Version>0.1.0.0</Version>
+    <Author>c0nkcr33t</Author>
+    <Name>DJ Scraper</Name>
+    <Punchline>Download and prepare playlist tracks from an in-game window.</Punchline>
+    <Description>An experimental companion for creating Thunderdome playlist tracks.</Description>
+    <RepoUrl>https://github.com/c0nkcr33t/ffxiv-dj-scraper</RepoUrl>
+    <IconUrl>https://raw.githubusercontent.com/c0nkcr33t/ffxiv-dj-scraper/main/assets/icon.png</IconUrl>
+    <Tags>audio;playlist;thunderdome</Tags>
+  </PropertyGroup>
+  <!-- Explicit hints let remote builds use a copied XIVLauncher Hooks/dev folder. -->
+  <ItemGroup>
+    <Reference Update="Dalamud">
+      <HintPath>$(DalamudLibPath)Dalamud.dll</HintPath>
+    </Reference>
+    <Reference Update="Dalamud.Bindings.ImGui">
+      <HintPath>$(DalamudLibPath)Dalamud.Bindings.ImGui.dll</HintPath>
+    </Reference>
+    <Reference Update="Dalamud.Bindings.ImPlot">
+      <HintPath>$(DalamudLibPath)Dalamud.Bindings.ImPlot.dll</HintPath>
+    </Reference>
+    <Reference Update="Dalamud.Bindings.ImGuizmo">
+      <HintPath>$(DalamudLibPath)Dalamud.Bindings.ImGuizmo.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

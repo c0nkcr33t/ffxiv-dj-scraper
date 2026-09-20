@@ -1,0 +1,15 @@
+# Local Dalamud development files and SDK copies.
+.dalamud/
+.dotnet/
+
+# Build outputs.
+bin/
+obj/
+
+# Local IDE and operating-system files.
+.vs/
+.idea/
+*.user
+*.suo
+*.swp
+.DS_Store
